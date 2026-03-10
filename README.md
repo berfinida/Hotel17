@@ -15,7 +15,7 @@
 A modern **boutique hotel website** designed to showcase rooms, atmosphere, and guest experience through a **premium interactive interface**.
 
 🌐 **Live Demo**  
-https://YOUR-DEMO-LINK
+https://berfinida.github.io/Hotel17/
 
 </div>
 
