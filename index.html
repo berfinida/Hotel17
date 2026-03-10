@@ -1,0 +1,1592 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="meta_title">Hotel 17 | İstanbul'da Butik Konaklama</title>
+  <meta name="description" content="Kadıköy'de modern, sinematik ve butik konaklama deneyimi." data-i18n-attr="content:meta_description" />
+  <meta name="keywords" content="Kadıköy otel, butik otel İstanbul, Hotel 17, Kadıköy konaklama" data-i18n-attr="content:meta_keywords" />
+  <meta name="author" content="Hotel 17" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Hotel 17 Kadıköy">
+  <meta property="og:image" content="cover.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1800&q=80" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Hotel 17",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kadıköy",
+      "addressRegion": "İstanbul",
+      "addressCountry": "TR"
+    },
+    "telephone": "+90 555 555 55 55",
+    "priceRange": "TL"
+  }
+  </script>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+  <div id="page-loader" class="page-loader">
+    <div class="page-loader__inner">HOTEL 17</div>
+  </div>
+
+  <svg class="logo-sprite" aria-hidden="true" focusable="false">
+    <symbol id="hotel17-wordmark" viewBox="0 0 264 64">
+      <defs>
+        <linearGradient id="logo-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="var(--gold-2)"/>
+          <stop offset="100%" stop-color="var(--gold)"/>
+        </linearGradient>
+      </defs>
+      <circle class="logo-disc" cx="30" cy="32" r="22" fill="url(#logo-gold)"></circle>
+      <circle class="logo-ring" cx="30" cy="32" r="21" stroke="url(#logo-gold)" fill="none"></circle>
+      <text class="logo-num" x="30" y="38" text-anchor="middle">17</text>
+      <text class="logo-hotel" x="68" y="23">HOTEL 17</text>
+      <text class="logo-name" x="68" y="47">Kadıköy</text>
+    </symbol>
+  </svg>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="brand" aria-label="Hotel 17 ana sayfa" data-i18n-attr="aria-label:brand_home_aria">
+        <img src="favicon.png" alt="Hotel 17 Logo" class="logo-img" loading="lazy" decoding="async" data-i18n-attr="alt:brand_logo_alt">
+        <div class="brand-text">
+          <span class="brand-name">Hotel 17</span>
+          <span class="brand-tagline" data-i18n="brand_tagline">Kadıköy · İstanbul</span>
+        </div>
+      </a>
+
+      <nav class="menu" aria-label="Ana navigasyon" data-i18n-attr="aria-label:nav_main_aria">
+        <a href="#home" data-i18n="nav_home">Ana Sayfa</a>
+        <a href="#about" data-i18n="nav_about">Hakkımızda</a>
+        <a href="#rooms" data-i18n="nav_rooms">Odalar</a>
+        <a href="#gallery" data-i18n="nav_gallery">Galeri</a>
+        <a href="#amenities" data-i18n="nav_amenities">Olanaklar</a>
+        <a href="#otel-konum" data-i18n="nav_location">Neredeyiz</a>
+        <a href="#contact" data-i18n="nav_contact">İletişim</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Dil seçimi" data-i18n-attr="aria-label:lang_switch_aria">
+          <button class="lang-btn is-active" type="button" data-lang-btn="tr" aria-pressed="true">TR</button>
+          <button class="lang-btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Tema değiştir" data-i18n-attr="aria-label:theme_toggle_aria">
+          ?
+        </button>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Mobil menüyü aç" aria-expanded="false" aria-controls="mobile-menu" data-i18n-attr="aria-label:menu_toggle_aria">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="btn btn-reserve" aria-label="Harici rezervasyon sayfasını yeni sekmede aç" data-i18n-attr="aria-label:reserve_external_aria">
+        <span data-i18n="reserve_cta">Rezervasyon Yap</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-backdrop" data-menu-close></div>
+    <div class="mobile-menu-panel" role="dialog" aria-modal="true" aria-label="Mobil navigasyon menüsü" tabindex="-1" data-i18n-attr="aria-label:mobile_menu_aria">
+      <div class="mobile-menu-head">
+        <a href="#home" class="brand" aria-label="Hotel 17 ana sayfa" data-i18n-attr="aria-label:brand_home_aria">
+          <svg class="logo-wordmark logo-wordmark-dark logo-compact" viewBox="0 0 264 64" role="img" aria-label="Hotel Seventeen logosu" data-i18n-attr="aria-label:brand_logo_aria">
+            <use href="#hotel17-wordmark"></use>
+          </svg>
+          <div class="brand-text">
+            <span class="brand-name">Hotel 17</span>
+            <span class="brand-tagline" data-i18n="brand_tagline">Kadıköy · İstanbul</span>
+          </div>
+        </a>
+        <button class="mobile-menu-close" type="button" data-menu-close aria-label="Mobil menüyü kapat" data-i18n-attr="aria-label:menu_close_aria">×</button>
+      </div>
+
+      <nav class="mobile-menu-links" aria-label="Mobil bölüm linkleri" data-i18n-attr="aria-label:mobile_nav_aria">
+        <a href="#home" data-mobile-nav-link data-i18n="nav_home">Ana Sayfa</a>
+        <a href="#concept" data-mobile-nav-link data-i18n="nav_concept">Konsept</a>
+        <a href="#about" data-mobile-nav-link data-i18n="nav_about">Hakkımızda</a>
+        <a href="#rooms" data-mobile-nav-link data-i18n="nav_rooms">Odalar</a>
+        <a href="#gallery" data-mobile-nav-link data-i18n="nav_gallery">Galeri</a>
+        <a href="#amenities" data-mobile-nav-link data-i18n="nav_amenities">Olanaklar</a>
+        <a href="#otel-konum" data-mobile-nav-link data-i18n="nav_location">Neredeyiz</a>
+        <a href="#contact" data-mobile-nav-link data-i18n="nav_contact">İletişim</a>
+      </nav>
+
+      <div class="mobile-menu-socials">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram sayfamızı yeni sekmede aç" data-i18n-attr="aria-label:instagram_aria" data-i18n="social_instagram">Instagram</a>
+        <a href="https://wa.me/905555555555?text=Merhaba%2C%20Hotel%2017%20i%C3%A7in%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp ile bize yaz" data-i18n-attr="aria-label:whatsapp_aria" data-i18n="social_whatsapp">WhatsApp</a>
+      </div>
+
+      <div class="mobile-mode-row">
+        <div class="lang-switch" role="group" aria-label="Dil seçimi" data-i18n-attr="aria-label:lang_switch_aria">
+          <button class="lang-btn is-active" type="button" data-lang-btn="tr" aria-pressed="true">TR</button>
+          <button class="lang-btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="theme-toggle" id="theme-toggle-mobile" type="button" aria-label="Tema değiştir" data-i18n-attr="aria-label:theme_toggle_aria">
+          ?
+        </button>
+      </div>
+
+      <div class="mobile-menu-cta">
+        <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="btn btn-reserve" aria-label="Rezervasyon sayfasını yeni sekmede aç" data-i18n-attr="aria-label:reserve_external_aria">
+          <span data-i18n="reserve_cta">Rezervasyon Yap</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content" role="main">
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow" data-hero-stagger data-i18n="hero_eyebrow">BOUTIQUE HOTEL · KADIKÖY</span>
+        <h1 data-hero-stagger data-i18n="hero_title">İstanbul'da sinematik ve zarif bir konaklama deneyimi</h1>
+        <p data-hero-stagger data-i18n="hero_copy">
+          Şehrin enerjisini modern tasarım, sıcak atmosfer ve butik hizmet anlayışıyla buluşturan Hotel 17;
+          konforlu odaları, estetik detayları ve merkezi konumuyla unutulmaz bir İstanbul kaçamağı sunar.
+        </p>
+
+        <div class="hero-actions" data-hero-stagger>
+          <a href="#rooms" class="btn btn-primary" data-i18n="hero_cta_rooms">Odaları İncele</a>
+          <a href="#about" class="btn btn-secondary" data-i18n="hero_cta_about">Otelimizi Keşfet</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <form class="quick-book" id="booking-form" novalidate>
+          <span class="eyebrow" data-i18n="booking_title">Hızlı Talep</span>
+          <div class="field">
+            <label data-i18n="booking_checkin_label">Giriş Tarihi</label>
+            <input type="date" id="booking-checkin" aria-label="Giriş tarihi" required>
+          </div>
+          <div class="field">
+            <label data-i18n="booking_checkout_label">Çıkış Tarihi</label>
+            <input type="date" id="booking-checkout" aria-label="Çıkış tarihi" required>
+          </div>
+          <div class="field">
+            <label data-i18n="booking_guests_label">Misafir Sayısı</label>
+            <select id="booking-guests" aria-label="Misafir sayısı seçiniz" required>
+              <option value="" data-i18n="booking_select">Seçin</option>
+              <option value="1" data-i18n="booking_guest_1">1 Misafir</option>
+              <option value="2" data-i18n="booking_guest_2">2 Misafir</option>
+              <option value="3" data-i18n="booking_guest_3">3 Misafir</option>
+              <option value="4" data-i18n="booking_guest_4">4 Misafir</option>
+            </select>
+          </div>
+          <div class="field">
+            <label data-i18n="booking_room_label">Oda Tipi</label>
+            <select id="booking-room" aria-label="Oda tipi seçiniz" required>
+              <option value="" data-i18n="booking_select">Seçin</option>
+              <option value="economy" data-i18n="room_economy">Ekonomi</option>
+              <option value="standard" data-i18n="room_standard">Standart</option>
+              <option value="deluxe" data-i18n="room_deluxe">Deluxe</option>
+              <option value="exclusive" data-i18n="room_exclusive">Exclusive</option>
+            </select>
+          </div>
+          <p class="booking-psychology" id="booking-psychology" aria-live="polite">
+            Konuklarımızın çoğu, aynı gün yapılan taleplerinde öncelikli yanıt alır.
+          </p>
+          <p class="booking-note" data-i18n="booking_note">Misafirlerin çoğu hafta sonu konaklaması için bu odayı seçer.</p>
+          <p class="booking-status" id="booking-status" aria-live="assertive"></p>
+          <button type="submit" class="btn btn-primary" data-i18n="booking_submit">Oda Müsaitliğini Kontrol Et</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <strong data-i18n="stat_rooms_title">4 Oda Tipi</strong>
+        <span data-i18n="stat_rooms_text">Her misafir için özenle tasarlanmış butik oda seçenekleri</span>
+      </div>
+      <div class="stat">
+        <strong data-i18n="stat_location_title">Merkezi Konum</strong>
+        <span data-i18n="stat_location_text">Kadıköy'ün canlı atmosferine birkaç adım</span>
+      </div>
+      <div class="stat">
+        <strong data-i18n="stat_support_title">24/7 Destek</strong>
+        <span data-i18n="stat_support_text">Her an ulaşılabilir misafir ilişkileri</span>
+      </div>
+      <div class="stat">
+        <strong data-i18n="stat_aesthetic_title">Estetik Deneyim</strong>
+        <span data-i18n="stat_aesthetic_text">Sade lüks, modern doku, sıcak detaylar</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="section story-section" id="concept">
+    <div class="container story-grid">
+      <div class="story-copy">
+        <span class="eyebrow" data-i18n="story_eyebrow">Konsept Hikayesi</span>
+        <h2 data-i18n="story_title">Hotel 17: Şehrin ritmini yavaşlatan zarif bir sahne</h2>
+        <p class="story-manifesto" data-i18n="story_manifesto">
+          Hotel 17, Kadıköy'ün canlı temposunu sessiz bir lüks anlayışıyla dengeler. Bizim için konaklama,
+          yalnızca bir gece geçirmek değil; ışık, doku ve sakinlik üzerinden kişisel bir şehir ritüeli yaşamaktır.
+        </p>
+
+        <div class="story-points">
+          <article class="story-point">
+            <strong data-i18n="story_point_1_title">Işık Kurgusu</strong>
+            <p data-i18n="story_point_1_text">Yumuşak gölgeler, sıcak tonlar ve gün batımını içeri taşıyan katmanlı bir atmosfer.</p>
+          </article>
+          <article class="story-point">
+            <strong data-i18n="story_point_2_title">Şehirle Diyalog</strong>
+            <p data-i18n="story_point_2_text">Kadıköy'ün kültürüne birkaç adım mesafede, içeride ise dinginlik odaklı bir deneyim.</p>
+          </article>
+          <article class="story-point">
+            <strong data-i18n="story_point_3_title">Rafine Sadelik</strong>
+            <p data-i18n="story_point_3_text">Gösteri yerine karakteri öne çıkaran malzemeler, zamansız çizgiler ve butik ölçekli hizmet.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="story-visual" role="img" aria-label="Sıcak ışıklar altında Hotel 17'nin lounge ve oda atmosferini yansıtan konsept görsel" data-i18n-attr="aria-label:story_visual_aria">
+        <div class="story-caption">
+          <span data-i18n="story_caption_title">Atmosfer Notu</span>
+          <p data-i18n="story_caption_text">Geceye geçişte bronz yansımalar, doğal dokular ve düşük tempolu bir şehir zarafeti.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="image-stack">
+        <img loading="lazy" decoding="async" class="media-about-a" src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80" alt="Oda detayları ve premium iç mekan" data-i18n-attr="alt:about_image_1_alt">
+        <img loading="lazy" decoding="async" class="media-about-b" src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1200&q=80" alt="Butik otel koridoru ve mimari doku" data-i18n-attr="alt:about_image_2_alt">
+      </div>
+
+      <div class="panel">
+        <span class="eyebrow" data-i18n="about_eyebrow">Hakkımızda</span>
+        <h2 data-i18n="about_title">Zamansız şıklık, sıcak misafirperverlik</h2>
+        <p data-i18n="about_p1">
+          Hotel 17, İstanbul'un ritmini sakin ve rafine bir konaklama anlayışıyla yeniden yorumlar.
+          Mekânın her detayında çağdaş tasarım, yumuşak ışıklar ve konfor hissi ön plandadır.
+        </p>
+        <p data-i18n="about_p2">
+          İster kısa bir şehir kaçamağı, ister iş seyahati için gelmiş olun; size hem dinlenebileceğiniz
+          hem de şehrin enerjisini hissedebileceğiniz dengeli bir ortam sunuyoruz.
+        </p>
+        <a href="#contact" class="btn btn-secondary" style="margin-top:8px;" data-i18n="about_cta">Bize Ulaşın</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="rooms">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="rooms_eyebrow">Odalar</span>
+          <h2 data-i18n="rooms_title">Her konaklamaya uygun seçkin oda alternatifleri</h2>
+        </div>
+        <a href="#contact" class="btn btn-secondary" data-i18n="rooms_cta">Tüm Odalar İçin Bilgi Al</a>
+      </div>
+
+      <div class="rooms-grid">
+        <a href="#room-detail-modal" class="room-card" data-room="exclusive" aria-haspopup="dialog" aria-controls="room-detail-modal" aria-label="Exclusive oda detaylarını aç" data-i18n-attr="aria-label:room_exclusive_aria">
+          <img loading="lazy" decoding="async" class="media-room-exclusive" src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80" alt="Exclusive Room" data-i18n-attr="alt:room_exclusive_alt">
+          <div class="room-body">
+            <div class="room-meta">
+              <span data-i18n="room_exclusive_name">Exclusive Oda</span>
+              <span class="price">4.900 TL</span>
+            </div>
+            <h3 data-i18n="room_exclusive_title">Şehrin ortasında premium konfor</h3>
+            <p data-i18n="room_exclusive_desc">Geniş yatak, özel oturma alanı, sıcak ışık atmosferi ve üst segment detaylar.</p>
+            <div class="room-features" aria-label="Exclusive oda kısa özellikleri" data-i18n-attr="aria-label:room_exclusive_features_aria">
+              <span class="room-feature" data-i18n="room_exclusive_feature_1"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>3 Kişi</span>
+              <span class="room-feature" data-i18n="room_exclusive_feature_2"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18v5H3v-5Zm2 0V9h6a3 3 0 0 1 3 3M4 17v2m16-2v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>King Bed</span>
+              <span class="room-feature" data-i18n="room_exclusive_feature_3"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10V4h6M20 10V4h-6M4 14v6h6M20 14v6h-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>36 m²</span>
+              <span class="room-feature" data-i18n="room_exclusive_feature_4"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11h11a4 4 0 0 1 4 4v1H8a4 4 0 0 1-4-4v-1Zm2-3h8M16 8v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Kahvaltı Dahil</span>
+              <span class="room-feature" data-i18n="room_exclusive_feature_5"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 14h14v2a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-2Zm2 0v-2a5 5 0 0 1 10 0v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Mermer Banyo</span>
+            </div>
+            <span class="room-card-note" data-i18n="room_card_note">Detayları Gör</span>
+          </div>
+        </a>
+
+        <a href="#room-detail-modal" class="room-card" data-room="deluxe" aria-haspopup="dialog" aria-controls="room-detail-modal" aria-label="Deluxe oda detaylarını aç" data-i18n-attr="aria-label:room_deluxe_aria">
+          <img loading="lazy" decoding="async" class="media-room-deluxe" src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80" alt="Deluxe Room" data-i18n-attr="alt:room_deluxe_alt">
+          <div class="room-body">
+            <div class="room-meta">
+              <span data-i18n="room_deluxe_name">Deluxe Oda</span>
+              <span class="price">3.900 TL</span>
+            </div>
+            <h3 data-i18n="room_deluxe_title">Modern çizgiler, dengeli rahatlık</h3>
+            <p data-i18n="room_deluxe_desc">Konfor ve estetiği bir araya getiren ferah kullanım alanı.</p>
+            <div class="room-features" aria-label="Deluxe oda kısa özellikleri" data-i18n-attr="aria-label:room_deluxe_features_aria">
+              <span class="room-feature" data-i18n="room_deluxe_feature_1"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>2 Kişi</span>
+              <span class="room-feature" data-i18n="room_deluxe_feature_2"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18v5H3v-5Zm2 0V9h6a3 3 0 0 1 3 3M4 17v2m16-2v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Queen Bed</span>
+              <span class="room-feature" data-i18n="room_deluxe_feature_3"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10V4h6M20 10V4h-6M4 14v6h6M20 14v6h-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>28 m²</span>
+              <span class="room-feature" data-i18n="room_deluxe_feature_4"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11h11a4 4 0 0 1 4 4v1H8a4 4 0 0 1-4-4v-1Zm2-3h8M16 8v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Kahvaltı Dahil</span>
+              <span class="room-feature" data-i18n="room_deluxe_feature_5"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 14h14v2a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-2Zm2 0v-2a5 5 0 0 1 10 0v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Yağmur Duşu</span>
+            </div>
+            <span class="room-card-note" data-i18n="room_card_note">Detayları Gör</span>
+          </div>
+        </a>
+
+        <a href="#room-detail-modal" class="room-card" data-room="standard" aria-haspopup="dialog" aria-controls="room-detail-modal" aria-label="Standart oda detaylarını aç" data-i18n-attr="aria-label:room_standard_aria">
+          <img loading="lazy" decoding="async" class="media-room-standard" src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80" alt="Standard Room" data-i18n-attr="alt:room_standard_alt">
+          <div class="room-body">
+            <div class="room-meta">
+              <span data-i18n="room_standard_name">Standart Oda</span>
+              <span class="price">2.900 TL</span>
+            </div>
+            <h3 data-i18n="room_standard_title">Akıllı tasarım, sade zarafet</h3>
+            <p data-i18n="room_standard_desc">İşlevselliği koruyan, huzurlu ve temiz bir konaklama deneyimi.</p>
+            <div class="room-features" aria-label="Standart oda kısa özellikleri" data-i18n-attr="aria-label:room_standard_features_aria">
+              <span class="room-feature" data-i18n="room_standard_feature_1"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>2 Kişi</span>
+              <span class="room-feature" data-i18n="room_standard_feature_2"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18v5H3v-5Zm2 0V9h6a3 3 0 0 1 3 3M4 17v2m16-2v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Double Bed</span>
+              <span class="room-feature" data-i18n="room_standard_feature_3"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10V4h6M20 10V4h-6M4 14v6h6M20 14v6h-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>22 m²</span>
+              <span class="room-feature" data-i18n="room_standard_feature_4"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11h11a4 4 0 0 1 4 4v1H8a4 4 0 0 1-4-4v-1Zm2-3h8M16 8v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Opsiyonel</span>
+              <span class="room-feature" data-i18n="room_standard_feature_5"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 14h14v2a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-2Zm2 0v-2a5 5 0 0 1 10 0v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Duş Kabini</span>
+            </div>
+            <span class="room-card-note" data-i18n="room_card_note">Detayları Gör</span>
+          </div>
+        </a>
+
+        <a href="#room-detail-modal" class="room-card" data-room="economy" aria-haspopup="dialog" aria-controls="room-detail-modal" aria-label="Ekonomi oda detaylarını aç" data-i18n-attr="aria-label:room_economy_aria">
+          <img loading="lazy" decoding="async" class="media-room-economy" src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80" alt="Economy Room" data-i18n-attr="alt:room_economy_alt">
+          <div class="room-body">
+            <div class="room-meta">
+              <span data-i18n="room_economy_name">Ekonomi Oda</span>
+              <span class="price">2.200 TL</span>
+            </div>
+            <h3 data-i18n="room_economy_title">Merkezi konumda akıllı tercih</h3>
+            <p data-i18n="room_economy_desc">Kısa konaklamalar için sade, düzenli ve sıcak bir alternatif.</p>
+            <div class="room-features" aria-label="Ekonomi oda kısa özellikleri" data-i18n-attr="aria-label:room_economy_features_aria">
+              <span class="room-feature" data-i18n="room_economy_feature_1"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8a7 7 0 0 1 14 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>2 Kişi</span>
+              <span class="room-feature" data-i18n="room_economy_feature_2"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h18v5H3v-5Zm2 0V9h6a3 3 0 0 1 3 3M4 17v2m16-2v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Double Bed</span>
+              <span class="room-feature" data-i18n="room_economy_feature_3"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10V4h6M20 10V4h-6M4 14v6h6M20 14v6h-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>18 m²</span>
+              <span class="room-feature" data-i18n="room_economy_feature_4"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11h11a4 4 0 0 1 4 4v1H8a4 4 0 0 1-4-4v-1Zm2-3h8M16 8v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Ücretli</span>
+              <span class="room-feature" data-i18n="room_economy_feature_5"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 14h14v2a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-2Zm2 0v-2a5 5 0 0 1 10 0v2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>Kompakt Banyo</span>
+            </div>
+            <span class="room-card-note" data-i18n="room_card_note">Detayları Gör</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="room-modal" id="room-detail-modal" aria-hidden="true">
+    <div class="room-modal-backdrop" data-room-close></div>
+    <div class="room-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="room-modal-title" tabindex="-1">
+      <button class="room-modal-close" type="button" data-room-close aria-label="Oda detay penceresini kapat">×</button>
+
+      <div class="room-modal-hero">
+        <img loading="lazy" decoding="async" id="room-modal-hero-image" src="" alt="">
+        <div class="room-modal-hero-copy">
+          <span class="eyebrow" id="room-modal-eyebrow">Room Detail</span>
+          <h2 id="room-modal-title"></h2>
+          <p id="room-modal-subtitle"></p>
+        </div>
+      </div>
+
+      <div class="room-modal-content">
+        <p id="room-modal-description"></p>
+
+        <div class="room-modal-specs">
+          <div class="room-spec">
+            <span>Kapasite</span>
+            <strong id="room-modal-capacity"></strong>
+          </div>
+          <div class="room-spec">
+            <span>Yatak Tipi</span>
+            <strong id="room-modal-bed"></strong>
+          </div>
+          <div class="room-spec" id="room-modal-size-wrap" hidden>
+            <span>Alan</span>
+            <strong id="room-modal-size"></strong>
+          </div>
+          <div class="room-spec" id="room-modal-breakfast-wrap" hidden>
+            <span>Kahvaltı</span>
+            <strong id="room-modal-breakfast"></strong>
+          </div>
+        </div>
+
+        <div>
+          <span class="eyebrow" style="margin-bottom:12px;">Öne Çıkan Olanaklar</span>
+          <div class="room-modal-amenities" id="room-modal-amenities"></div>
+        </div>
+
+        <div>
+          <span class="eyebrow" style="margin-bottom:12px;">Mini Galeri</span>
+          <div class="room-modal-gallery" id="room-modal-gallery"></div>
+        </div>
+
+        <div class="room-modal-cta">
+          <div class="cta-copy">
+            <h4>Konaklamanızı ayırtın</h4>
+            <p>En iyi fiyat ve oda seçeneği için doğrudan talep bırakın.</p>
+          </div>
+          <div class="room-modal-actions">
+            <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="btn btn-reserve">
+              Müsaitlik Kontrol Et
+            </a>
+            <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">WhatsApp</a>
+            <button type="button" class="btn btn-secondary" data-room-close>Rezervasyon Talebi Gönder</button>
+          </div>
+        </div>
+
+        <div class="room-modal-actions">
+          <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="btn btn-reserve">
+            Rezervasyon Yap
+          </a>
+          <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">WhatsApp</a>
+          <button type="button" class="btn btn-secondary" data-room-close>Listeye Dön</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="booking-modal" id="booking-result-modal" aria-hidden="true">
+    <div class="booking-modal-backdrop" data-booking-close></div>
+    <div class="booking-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="booking-result-title" tabindex="-1">
+      <button class="booking-modal-close" type="button" data-booking-close aria-label="Booking penceresini kapat">×</button>
+      <div class="booking-modal-header">
+        <div>
+          <span class="eyebrow" data-i18n="booking_modal_eyebrow">Müsaitlik</span>
+          <h3 id="booking-result-title" data-i18n="booking_result_title">İyi haber — bu tarihlerde müsaitliğimiz var</h3>
+          <p class="booking-modal-subtitle" data-i18n="booking_result_desc">Bu tarihler için sadece birkaç oda kaldı. Misafirlerin çoğu rezervasyonunu aynı gün tamamlıyor.</p>
+        </div>
+        <div class="booking-modal-badge" data-i18n="booking_modal_badge">Premium Demo</div>
+      </div>
+      <div class="booking-summary" id="booking-summary">
+        <div class="summary-row"><span data-i18n="summary_checkin">Giriş</span><strong id="summary-checkin">-</strong></div>
+        <div class="summary-row"><span data-i18n="summary_checkout">Çıkış</span><strong id="summary-checkout">-</strong></div>
+        <div class="summary-row"><span data-i18n="summary_guests">Misafir</span><strong id="summary-guests">-</strong></div>
+        <div class="summary-row"><span data-i18n="summary_room">Oda Tipi</span><strong id="summary-room">-</strong></div>
+        <div class="summary-row"><span data-i18n="summary_rate">Gecelik</span><strong id="summary-rate">-</strong></div>
+        <div class="summary-row total"><span data-i18n="summary_total">Tahmini Toplam</span><strong id="summary-total">-</strong></div>
+      </div>
+      <div class="booking-modal-actions">
+        <button type="button" class="btn btn-primary" id="booking-continue-btn" data-i18n="booking_continue">Rezervasyona Devam Et</button>
+        <a class="btn btn-secondary" id="booking-whatsapp-btn" href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" data-i18n="booking_whatsapp">WhatsApp ile İletişim</a>
+        <button type="button" class="btn btn-secondary" id="booking-contact-btn" data-i18n="booking_contact">İletişim Formu</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="gallery_eyebrow">Galeri</span>
+          <h2 data-i18n="gallery_title">Mekânın atmosferine yakından bakın</h2>
+        </div>
+      </div>
+
+      <div class="gallery-system">
+        <article class="gallery-card featured">
+          <img loading="lazy" decoding="async" class="media-lobby" src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1400&q=80" alt="Lobi ve karşılamanın sıcak atmosferi" data-i18n-attr="alt:gallery_lobby_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_lobby_title">Lobby</h3>
+            <p data-i18n="gallery_lobby_text">Giriş anından itibaren sakin, rafine ve ışıkla katmanlanan bir karşılama deneyimi.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img loading="lazy" decoding="async" class="media-room-detail" src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80" alt="Oda detayları ve yaşam alanı" data-i18n-attr="alt:gallery_room_detail_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_room_detail_title">Room Detail</h3>
+            <p data-i18n="gallery_room_detail_text">Ölçülü dekor, temiz çizgiler ve işlevsel detaylar ile premium konfor.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img loading="lazy" decoding="async" class="media-bedding" src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=80" alt="Yatak ve tekstil detayları" data-i18n-attr="alt:gallery_bedding_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_bedding_title">Bedding</h3>
+            <p data-i18n="gallery_bedding_text">Doğal dokulu tekstiller ve derin uyku kalitesine odaklı yatak kurgusu.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img loading="lazy" decoding="async" class="media-corridor" src="https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?auto=format&fit=crop&w=1200&q=80" alt="Koridor ve iç mimari geçişler" data-i18n-attr="alt:gallery_corridor_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_corridor_title">Corridor</h3>
+            <p data-i18n="gallery_corridor_text">Malzeme geçişleri ve ışık ritmiyle sahnelenen sessiz bir mimari akış.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img loading="lazy" decoding="async" class="media-facade" src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80" alt="Otelin dış cephesi ve giriş görünümü" data-i18n-attr="alt:gallery_facade_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_facade_title">Facade</h3>
+            <p data-i18n="gallery_facade_text">Kadıköy dokusuna uyumlanan, modern ve zamansız bir dış cephe dili.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card featured">
+          <img loading="lazy" decoding="async" class="media-breakfast" src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1400&q=80" alt="Kahvaltı servisi ve butik sunum" data-i18n-attr="alt:gallery_breakfast_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_breakfast_title">Breakfast</h3>
+            <p data-i18n="gallery_breakfast_text">Yerel tatlarla zenginleşen, günün temposunu yumuşak başlatan butik servis.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card">
+          <img loading="lazy" decoding="async" class="media-neighborhood" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80" alt="Kadıköy çevresi ve mahalle atmosferi" data-i18n-attr="alt:gallery_neighborhood_alt">
+          <div class="gallery-copy">
+            <h3 data-i18n="gallery_neighborhood_title">Neighborhood</h3>
+            <p data-i18n="gallery_neighborhood_text">Sahil, kültür ve yeme-içme noktalarına kısa yürüyüşle ulaşan canlı bir çevre.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="location_eyebrow">Konum</span>
+          <h2 data-i18n="location_title">Kadıköy · İstanbul</h2>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Hotel 17 Kadıköy Harita"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12044.549!2d29.025!3d40.9905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacb0f2d4e8bff%3A0x0!2zS2FkxLFrw7Z5!5e0!3m2!1str!2str!4v1700000000001!5m2!1str!2str"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section insta-preview">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Instagram</span>
+          <h2>Hotel 17 Anları</h2>
+        </div>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Tümünü Gör</a>
+      </div>
+      <div class="insta-grid">
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Lobi atmosferi">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Oda içi detay">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80" alt="Kahvaltı sunumu">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&fit=crop&w=800&q=80" alt="Koridor tasarımı">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80" alt="Premium oda">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="insta-card">
+          <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=800&q=80" alt="Akşam ışıkları">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section instagram-section" id="instagram">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="instagram_eyebrow">Instagram Anları</span>
+          <h2 data-i18n="instagram_title">Hotel 17'yi Takip Edin</h2>
+        </div>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <span data-i18n="instagram_cta">Instagram'ı Gör</span>
+        </a>
+      </div>
+
+      <div class="instagram-grid">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 lobi atmosfer fotoğrafı"
+          data-i18n-attr="aria-label:instagram_card_1_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 lobby" data-i18n-attr="alt:instagram_card_1_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_1_title">Lobby Ritual</span>
+            <small data-i18n="instagram_card_1_text">Soft light and polished stone textures.</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 oda atmosferi"
+          data-i18n-attr="aria-label:instagram_card_2_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 room interior" data-i18n-attr="alt:instagram_card_2_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_2_title">Quiet Luxury</span>
+            <small data-i18n="instagram_card_2_text">Designed for slow evenings and calm stays.</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 kahvaltı anı"
+          data-i18n-attr="aria-label:instagram_card_3_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 breakfast table" data-i18n-attr="alt:instagram_card_3_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_3_title">Morning Ritual</span>
+            <small data-i18n="instagram_card_3_text">Delicate service moments with local flavors.</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 dış cephe alacakaranlık"
+          data-i18n-attr="aria-label:instagram_card_4_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 facade" data-i18n-attr="alt:instagram_card_4_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_4_title">Evening Arrival</span>
+            <small data-i18n="instagram_card_4_text">Modern silhouettes in city rhythm.</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 oda detayları"
+          data-i18n-attr="aria-label:instagram_card_5_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 room details" data-i18n-attr="alt:instagram_card_5_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_5_title">Soft Contrast</span>
+            <small data-i18n="instagram_card_5_text">Material textures and thoughtful touchpoints.</small>
+          </div>
+        </a>
+
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="instagram-card"
+          aria-label="Hotel 17 koridor tasarımı"
+          data-i18n-attr="aria-label:instagram_card_6_aria"
+        >
+          <img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?auto=format&fit=crop&w=1200&q=80" alt="Hotel 17 corridor" data-i18n-attr="alt:instagram_card_6_alt">
+          <div class="instagram-card-caption">
+            <span data-i18n="instagram_card_6_title">Ambient Corridor</span>
+            <small data-i18n="instagram_card_6_text">Atmosphere built from restrained details.</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="gallery-lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="gallery-lightbox-backdrop" data-gallery-lightbox-close aria-label="Kapat"></div>
+    <button class="gallery-lightbox-close" type="button" data-gallery-lightbox-close aria-label="Galeri açılır penceresini kapat">×</button>
+    <button class="gallery-lightbox-control prev" type="button" data-gallery-prev aria-label="Önceki görsel">‹</button>
+    <button class="gallery-lightbox-control next" type="button" data-gallery-next aria-label="Sonraki görsel">›</button>
+    <figure class="gallery-lightbox-frame">
+      <img id="gallery-lightbox-image" alt="" loading="lazy" decoding="async">
+      <figcaption id="gallery-lightbox-caption"></figcaption>
+    </figure>
+    <div class="gallery-lightbox-counter" id="gallery-lightbox-count"></div>
+  </div>
+  </main>
+
+  <section class="section offers-section" id="offers">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="offers_eyebrow">Özel Teklifler</span>
+          <h2 data-i18n="offers_title">Hotel 17 için seçkin konaklama paketleri</h2>
+        </div>
+      </div>
+
+      <div class="offers-grid">
+        <article class="offer-card">
+          <span class="offer-badge" data-i18n="offer_1_badge">Weekend Escape</span>
+          <h3 data-i18n="offer_1_title">Hafta Sonu Kaçamağı</h3>
+          <p data-i18n="offer_1_text">
+            İki gece + erken check-in seçeneğiyle sade, dengeli ve rafine bir şehir mola önerisi.
+            Odanızda sessiz bir tempo, sahile yakın bir erişim ve huzurlu bir gece atmosferi.
+          </p>
+          <p class="offer-highlight" data-i18n="offer_1_highlight">Her hafta sonu: geç çıkışa kadar konforlu uzatma</p>
+          <a href="#contact" class="btn btn-secondary" data-i18n="offer_cta">Detay ve Talep</a>
+        </article>
+
+        <article class="offer-card">
+          <span class="offer-badge" data-i18n="offer_2_badge">Romantic Stay</span>
+          <h3 data-i18n="offer_2_title">Romantik Kaçamak</h3>
+          <p data-i18n="offer_2_text">
+            Akşam vakti şehir ritminden arınarak, butik ölçekte huzurlu bir ikili konaklama deneyimi.
+            Işık, doku ve sessiz servis detaylarının öne çıktığı bir planlama.
+          </p>
+          <p class="offer-highlight" data-i18n="offer_2_highlight">Lobi lounge kahvesi ve oda ikramı dahil</p>
+          <a href="#contact" class="btn btn-secondary" data-i18n="offer_cta">Detay ve Talep</a>
+        </article>
+
+        <article class="offer-card">
+          <span class="offer-badge" data-i18n="offer_3_badge">Long Stay Offer</span>
+          <h3 data-i18n="offer_3_title">Uzun Konaklama Avantajı</h3>
+          <p data-i18n="offer_3_text">
+            İş veya uzun kişisel seyahatler için planlanmış, sakin ve dengeli bir fiyatlandırma yaklaşımı.
+            Her gün için kesintisiz konforla aynı kalite, daha iyi oranlar.
+          </p>
+          <p class="offer-highlight" data-i18n="offer_3_highlight">7 gece ve üzeri konaklamalarda özel kurumsal oran</p>
+          <a href="#contact" class="btn btn-secondary" data-i18n="offer_cta">Detay ve Talep</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="amenities">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow" data-i18n="amenities_eyebrow">Olanaklar</span>
+          <h2 data-i18n="amenities_title">Konforu tamamlayan detaylar</h2>
+        </div>
+      </div>
+
+      <div class="amenities">
+        <div class="amenity">
+          <h3 data-i18n="amenity_1_title">Yüksek Hızlı Wi-Fi</h3>
+          <p data-i18n="amenity_1_text">İş ve eğlence için kesintisiz internet bağlantısı.</p>
+        </div>
+        <div class="amenity">
+          <h3 data-i18n="amenity_2_title">24 Saat Resepsiyon</h3>
+          <p data-i18n="amenity_2_text">Geç girişler ve tüm sorularınız için sürekli destek.</p>
+        </div>
+        <div class="amenity">
+          <h3 data-i18n="amenity_3_title">Günlük Temizlik</h3>
+          <p data-i18n="amenity_3_text">Her gün ferah, düzenli ve bakımlı yaşam alanları.</p>
+        </div>
+        <div class="amenity">
+          <h3 data-i18n="amenity_4_title">Merkezi Lokasyon</h3>
+          <p data-i18n="amenity_4_text">Kafeler, sahil, ulaşım ve kültürel noktalarla iç içe.</p>
+        </div>
+        <div class="amenity">
+          <h3 data-i18n="amenity_5_title">Klima ve Isıtma</h3>
+          <p data-i18n="amenity_5_text">Dört mevsim dengeli ve rahat oda sıcaklığı.</p>
+        </div>
+        <div class="amenity">
+          <h3 data-i18n="amenity_6_title">Transfer Desteği</h3>
+          <p data-i18n="amenity_6_text">Talebe göre ulaşım ve yönlendirme desteği sağlanır.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <span class="eyebrow" data-i18n="cta_eyebrow">Özel Teklif</span>
+          <h2 data-i18n="cta_title">İstanbul seyahatiniz için zarif bir başlangıç yapın</h2>
+          <p data-i18n="cta_text">
+            Konaklama tarihinizi paylaşın; sizin için en uygun oda seçenekleri ve fiyat bilgilerini hazırlayalım.
+          </p>
+        </div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-start;">
+          <a href="#contact" class="btn btn-primary" data-i18n="cta_primary">Rezervasyon Sor</a>
+          <a href="#rooms" class="btn btn-secondary" data-i18n="cta_secondary">Odaları Gör</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="panel contact-panel">
+        <span class="eyebrow" data-i18n="contact_eyebrow">İletişim</span>
+        <h2 data-i18n="contact_title">Zamansız konforun yanınızda olduğu nokta</h2>
+        <p data-i18n="contact_p1">Rezervasyon, uzun konaklama, özel etkinlik veya ek hizmet talepleriniz için doğrudan bize ulaşın.</p>
+        <p data-i18n="contact_p2">Aşağıdaki kartlarda hızlı erişim bilgilerini, saat içindeki destek ekibimizi ve güvenli bir şekilde iletişime geçme seçeneklerini bulacaksınız.</p>
+
+        <div class="contact-method-grid">
+          <article class="contact-card">
+            <span class="contact-card-tag" data-i18n="contact_card_address_tag">Adres</span>
+            <h3 data-i18n="contact_card_address_title">Kadıköy Merkez, İstanbul</h3>
+            <p data-i18n="contact_card_address_text">Caferağa Mah. Şair Eşref Blv. No:17, Kadıköy / İstanbul</p>
+            <a href="https://maps.google.com/?q=Hotel+17+Kadik%C3%B6y+Istanbul" target="_blank" rel="noopener noreferrer" class="contact-inline-link" data-i18n="contact_card_address_link">Yol Tarifi Al</a>
+          </article>
+
+          <article class="contact-card">
+            <span class="contact-card-tag" data-i18n="contact_card_phone_tag">Telefon</span>
+            <h3 data-i18n="contact_card_phone_title">Rezervasyon ve Ön Kayıt</h3>
+            <p data-i18n="contact_card_phone_text">+90 555 555 55 55</p>
+            <a href="tel:+905555555555" class="contact-inline-link" data-i18n="contact_card_phone_link">Hemen Ara</a>
+          </article>
+
+          <article class="contact-card">
+            <span class="contact-card-tag" data-i18n="contact_card_email_tag">E-posta</span>
+            <h3 data-i18n="contact_card_email_title">Resmi Mesaj Kanalımız</h3>
+            <p data-i18n="contact_card_email_text">hello@hotel17.com</p>
+            <a href="mailto:hello@hotel17.com?subject=Hotel%2017%20ile%20iletişim%20ekibinizle%20görüşmek%20istiyorum" class="contact-inline-link" data-i18n="contact_card_email_link">E-posta Gönder</a>
+          </article>
+        </div>
+
+        <a href="https://wa.me/905555555555?text=Merhaba%2C%20otel%20iletişim%20ekibinizle%20g%C3%B6r%C3%BC%C5%9Fmek%20istiyorum." target="_blank" rel="noopener noreferrer" class="btn btn-primary contact-whatsapp" aria-label="WhatsApp ile bize yazın">
+          <span data-i18n="contact_whatsapp">WhatsApp ile Yazın</span>
+        </a>
+      </div>
+
+      <div class="contact-side">
+        <form class="panel contact-form-panel" id="contact-form" novalidate>
+          <span class="eyebrow" data-i18n="contact_form_eyebrow">Mesaj Formu</span>
+          <h3 data-i18n="contact_form_title">Talebinizi detaylandırın, size dönelim</h3>
+
+          <div class="form-grid">
+            <div class="field" id="contact-name-field">
+              <label for="contact-name" data-i18n="contact_name_label">Ad Soyad</label>
+              <input type="text" id="contact-name" name="name" autocomplete="name" placeholder="Ad Soyad" data-i18n-attr="placeholder:contact_name_placeholder" />
+              <p class="field-error" id="contact-name-error"></p>
+            </div>
+
+            <div class="field" id="contact-email-field">
+              <label for="contact-email" data-i18n="contact_email_label">E-posta</label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" placeholder="ornek@mail.com" data-i18n-attr="placeholder:contact_email_placeholder" />
+              <p class="field-error" id="contact-email-error"></p>
+            </div>
+
+            <div class="field field-message" id="contact-message-field">
+              <label for="contact-message" data-i18n="contact_message_label">Mesajınız</label>
+              <textarea id="contact-message" name="message" placeholder="Konaklama tarihiniz, oda beklentiniz ve iletişim saatiniz gibi notlarınızı yazın." data-i18n-attr="placeholder:contact_message_placeholder"></textarea>
+              <p class="field-error" id="contact-message-error"></p>
+            </div>
+
+            <button class="btn btn-primary" type="submit" data-i18n="contact_submit">Mesaj Gönder</button>
+            <p class="contact-status" id="contact-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <div class="panel contact-map">
+          <span class="eyebrow" data-i18n="contact_map_eyebrow">Konum</span>
+          <h3 data-i18n="contact_map_title">Hotel 17, Kadıköy</h3>
+          <p data-i18n="contact_map_desc">Otelde sizleri karşılamak için dakikadan dakikaya İstanbul'un merkezinde.</p>
+          <div class="contact-map-frame">
+            <iframe
+              title="Hotel 17 Konum Haritası"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48311.12345678901!2d29.0240!3d40.9900!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacb0f2d4e8bff%3A0x0!2zS2Fka8Sxaw!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=Kad%C4%B1k%C3%B6y%20Istanbul%20Hotel%2017" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="contact_map_button">
+            Haritada Aç
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section map-section" id="otel-konum">
+    <div class="container">
+      <div class="map-header">
+        <h2 data-i18n="map_section_title">Otel Konumu</h2>
+        <p data-i18n="map_section_desc">Kadıköy merkezine birkaç dakika mesafede.</p>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Hotel 17 Konum Haritası"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48311.12345678901!2d29.0240!3d40.9900!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacb0f2d4e8bff%3A0x0!2zS2Fka8Sxaw!5e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <img src="favicon.png" alt="Hotel 17 Logo" class="footer-logo" loading="lazy" decoding="async">
+        <div class="footer-brand-text">
+          <span class="footer-brand-name">Hotel 17</span>
+          <span class="footer-brand-tagline" data-i18n="brand_tagline">Kadıköy · Istanbul</span>
+        </div>
+      </div>
+      <p class="footer-brand-copy" data-i18n="footer_copy">
+        Kadıköy'ün ritmini rafine bir misafirperverlikle buluşturan butik konaklama deneyimi.
+      </p>
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4 data-i18n="footer_quick_links">Hızlı Linkler</h4>
+          <a href="#about" data-i18n="footer_link_about">Hakkımızda</a>
+          <a href="#rooms" data-i18n="footer_link_rooms">Odalar</a>
+          <a href="#gallery" data-i18n="footer_link_gallery">Galeri</a>
+          <a href="#contact" data-i18n="footer_link_contact">İletişim</a>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_contact">İletişim</h4>
+          <a href="tel:+905555555555">+90 555 555 55 55</a>
+          <a href="mailto:hello@hotel17.com">hello@hotel17.com</a>
+          <span data-i18n="footer_contact_location">Kadıköy, İstanbul</span>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer_social">Sosyal</h4>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" data-i18n="footer_social_instagram">Instagram</a>
+          <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" data-i18n="footer_social_whatsapp">WhatsApp</a>
+        </div>
+      </div>
+      <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="btn btn-reserve" aria-label="Harici rezervasyon sayfasını yeni sekmede aç">
+        <span data-i18n="footer_reserve_cta">Rezervasyon Yap</span>
+      </a>
+    </div>
+    <div class="container footer-credit">Berfin Nida - Code & Create</div>
+  </footer>
+
+  <div class="mobile-sticky-cta">
+    <nav class="mobile-action-bar" aria-label="Mobil hızlı aksiyonlar">
+      <a href="tel:+905555555555" class="mobile-action-btn" aria-label="Hotel 17 resepsiyonunu ara">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6.7 3h3.1l1.2 4.1-1.9 1.9a14 14 0 0 0 6 6l1.9-1.9L21 14.3v3.1a1.7 1.7 0 0 1-1.9 1.7A16.1 16.1 0 0 1 4.9 4.9 1.7 1.7 0 0 1 6.7 3Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Ara</span>
+      </a>
+      <a href="https://wa.me/905555555555?text=Merhaba%2C%20Hotel%2017%20i%C3%A7in%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="mobile-action-btn" aria-label="WhatsApp ile Hotel 17'ye yaz">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M20 11.5a8 8 0 0 1-11.8 7l-3.2 1 1-3.1A8 8 0 1 1 20 11.5Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M9 10.2c.2 1.4 1.4 2.8 2.8 3.3.4.2.9.1 1.2-.2l.5-.5c.2-.2.4-.2.6-.1l1.4.7c.2.1.3.4.2.6-.5 1-1.7 1.5-2.8 1.2-2.8-.8-5-3.1-5.7-5.9-.3-1.1.2-2.3 1.2-2.8.2-.1.5 0 .6.2l.7 1.4c.1.2.1.4-.1.6l-.5.5c-.3.3-.4.8-.1 1Z" fill="currentColor"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="https://example.com/booking/hotel17" target="_blank" rel="noopener noreferrer" class="mobile-action-btn mobile-reserve" aria-label="Rezervasyon sayfasını yeni sekmede aç">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M7 3v3M17 3v3M4 9h16M6 6h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Rezervasyon Yap</span>
+      </a>
+    </nav>
+  </div>
+
+  <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="WhatsApp ile Yaz">
+    <span class="floating-whatsapp__label">WhatsApp ile Yaz</span>
+    <span class="floating-whatsapp__icon" aria-hidden="true">
+      <svg viewBox="0 0 32 32" fill="none">
+        <path d="M15.96 4C9.9 4 4.96 8.79 4.96 14.7c0 2.17.7 4.2 1.92 5.9L5 28l7.6-2.4c1.2.38 2.48.58 3.84.58 6.06 0 10.99-4.79 10.99-10.7C27.43 8.79 22.02 4 15.96 4Zm0 18.9c-1.18 0-2.33-.19-3.39-.56l-.24-.08-4.5 1.43 1.5-4.3-.16-.23a8.62 8.62 0 0 1-1.52-4.95c0-4.75 3.94-8.61 8.8-8.61s8.79 3.86 8.79 8.61c0 4.74-3.94 8.69-8.78 8.69Zm5-6.4c-.27-.14-1.58-.8-1.83-.89-.25-.1-.43-.14-.62.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.6.07-.27-.14-1.15-.42-2.18-1.36-.8-.72-1.34-1.62-1.5-1.9-.16-.27-.02-.43.12-.56.13-.13.27-.33.4-.49.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.48-.07-.14-.62-1.48-.85-2.04-.22-.54-.45-.46-.62-.47h-.53c-.18 0-.48.07-.74.34-.25.27-.98.95-.98 2.3 0 1.35.99 2.66 1.13 2.84.14.18 1.9 3 4.64 4.09.65.28 1.16.45 1.56.58.66.21 1.26.18 1.73.11.53-.08 1.58-.65 1.8-1.28.22-.63.22-1.17.16-1.28-.06-.1-.24-.18-.5-.31Z" fill="currentColor"/>
+      </svg>
+    </span>
+  </a>
+
+  <script>
+  window.addEventListener("load", function () {
+    var loader = document.getElementById("page-loader");
+    if (!loader) return;
+
+    setTimeout(function () {
+      loader.classList.add("is-hidden");
+
+      setTimeout(function () {
+        if (loader && loader.parentNode) {
+          loader.parentNode.removeChild(loader);
+        }
+      }, 700);
+    }, 1000);
+  });
+  </script>
+    <script type="application/json" id="i18n-data">
+{
+  "tr": {
+    "meta_title": "Hotel 17 | İstanbul'da Butik Konaklama",
+    "meta_description": "Kadıköy'de modern, sinematik ve butik konaklama deneyimi.",
+    "meta_keywords": "Kadıköy otel, butik otel İstanbul, Hotel 17, Kadıköy konaklama",
+    "brand_home_aria": "Hotel 17 ana sayfa",
+    "brand_logo_alt": "Hotel 17 Logo",
+    "brand_logo_aria": "Hotel 17 logosu",
+    "brand_tagline": "Kadıköy · İstanbul",
+    "nav_main_aria": "Ana navigasyon",
+    "nav_home": "Ana Sayfa",
+    "nav_concept": "Konsept",
+    "nav_about": "Hakkımızda",
+    "nav_rooms": "Odalar",
+    "nav_gallery": "Galeri",
+    "nav_amenities": "Olanaklar",
+    "nav_contact": "İletişim",
+    "lang_switch_aria": "Dil seçimi",
+    "theme_toggle_aria": "Tema değiştir",
+    "menu_toggle_aria": "Mobil menüyü aç",
+    "menu_close_aria": "Mobil menüyü kapat",
+    "mobile_menu_aria": "Mobil navigasyon menüsü",
+    "mobile_nav_aria": "Mobil bölüm linkleri",
+    "reserve_external_aria": "Harici rezervasyon sayfasını yeni sekmede aç",
+    "reserve_cta": "Rezervasyon Yap",
+    "instagram_aria": "Instagram sayfamızı yeni sekmede aç",
+    "whatsapp_aria": "WhatsApp ile bize yaz",
+    "social_instagram": "Instagram",
+    "social_whatsapp": "WhatsApp",
+    "stat_rooms_title": "4 Oda Tipi",
+    "stat_rooms_text": "Her misafir için özenle tasarlanmış butik oda seçenekleri",
+    "stat_location_title": "Merkezi Konum",
+    "stat_location_text": "Kadıköy'ün canlı atmosferine birkaç adım",
+    "stat_support_title": "24/7 Destek",
+    "stat_support_text": "Her an ulaşılabilir misafir ilişkileri",
+    "stat_aesthetic_title": "Estetik Deneyim",
+    "stat_aesthetic_text": "Sade lüks, modern doku, sıcak detaylar",
+    "story_eyebrow": "Konsept Hikayesi",
+    "story_title": "Hotel 17: Şehrin ritmini yavaşlatan zarif bir sahne",
+    "story_manifesto": "Hotel 17, Kadıköy'ün canlı temposunu sessiz bir lüks anlayışıyla dengeler. Bizim için konaklama, yalnızca bir gece geçirmek değil; ışık, doku ve sakinlik üzerinden kişisel bir şehir ritüeli yaşamaktır.",
+    "story_point_1_title": "Işık Kurgusu",
+    "story_point_1_text": "Yumuşak gölgeler, sıcak tonlar ve gün batımını içeri taşıyan katmanlı bir atmosfer.",
+    "story_point_2_title": "Şehirle Diyalog",
+    "story_point_2_text": "Kadıköy'ün kültürüne birkaç adım mesafede, içeride ise dinginlik odaklı bir deneyim.",
+    "story_point_3_title": "Rafine Sadelik",
+    "story_point_3_text": "Gösteri yerine karakteri öne çıkaran malzemeler, zamansız çizgiler ve butik ölçekli hizmet.",
+    "story_visual_aria": "Sıcak ışıklar altında Hotel 17'nin lounge ve oda atmosferini yansıtan konsept görsel",
+    "story_caption_title": "Atmosfer Notu",
+    "story_caption_text": "Geceye geçişte bronz yansımalar, doğal dokular ve düşük tempolu bir şehir zarafeti.",
+    "about_image_1_alt": "Oda detayları ve premium iç mekan",
+    "about_image_2_alt": "Butik otel koridoru ve mimari doku",
+    "about_eyebrow": "Hakkımızda",
+    "about_title": "Zamansız şıklık, sıcak misafirperverlik",
+    "about_p1": "Hotel 17, İstanbul'un ritmini sakin ve rafine bir konaklama anlayışıyla yeniden yorumlar. Mekânın her detayında çağdaş tasarım, yumuşak ışıklar ve konfor hissi ön plandadır.",
+    "about_p2": "İster kısa bir şehir kaçamağı, ister iş seyahati için gelmiş olun; size hem dinlenebileceğiniz hem de şehrin enerjisini hissedebileceğiniz dengeli bir ortam sunuyoruz.",
+    "about_cta": "Bize Ulaşın",
+    "rooms_eyebrow": "Odalar",
+    "rooms_title": "Her konaklamaya uygun seçkin oda alternatifleri",
+    "rooms_cta": "Tüm Odalar İçin Bilgi Al",
+    "room_exclusive_aria": "Exclusive oda detaylarını aç",
+    "room_exclusive_alt": "Exclusive Room",
+    "room_exclusive_name": "Exclusive Oda",
+    "room_exclusive_title": "Şehrin ortasında premium konfor",
+    "room_exclusive_desc": "Geniş yatak, özel oturma alanı, sıcak ışık atmosferi ve üst segment detaylar.",
+    "room_exclusive_features_aria": "Exclusive oda kısa özellikleri",
+    "room_exclusive_feature_1": "3 Kişi",
+    "room_exclusive_feature_2": "King Bed",
+    "room_exclusive_feature_3": "36 m²",
+    "room_exclusive_feature_4": "Kahvaltı Dahil",
+    "room_exclusive_feature_5": "Mermer Banyo",
+    "room_deluxe_aria": "Deluxe oda detaylarını aç",
+    "room_deluxe_alt": "Deluxe Room",
+    "room_deluxe_name": "Deluxe Oda",
+    "room_deluxe_title": "Modern çizgiler, dengeli rahatlık",
+    "room_deluxe_desc": "Konfor ve estetiği bir araya getiren ferah kullanım alanı.",
+    "room_deluxe_features_aria": "Deluxe oda kısa özellikleri",
+    "room_deluxe_feature_1": "2 Kişi",
+    "room_deluxe_feature_2": "Queen Bed",
+    "room_deluxe_feature_3": "28 m²",
+    "room_deluxe_feature_4": "Kahvaltı Dahil",
+    "room_deluxe_feature_5": "Yağmur Duşu",
+    "room_standard_aria": "Standart oda detaylarını aç",
+    "room_standard_alt": "Standard Room",
+    "room_standard_name": "Standart Oda",
+    "room_standard_title": "Akıllı tasarım, sade zarafet",
+    "room_standard_desc": "İşlevselliği koruyan, huzurlu ve temiz bir konaklama deneyimi.",
+    "room_standard_features_aria": "Standart oda kısa özellikleri",
+    "room_standard_feature_1": "2 Kişi",
+    "room_standard_feature_2": "Double Bed",
+    "room_standard_feature_3": "22 m²",
+    "room_standard_feature_4": "Opsiyonel",
+    "room_standard_feature_5": "Duş Kabini",
+    "room_economy_aria": "Ekonomi oda detaylarını aç",
+    "room_economy_alt": "Economy Room",
+    "room_economy_name": "Ekonomi Oda",
+    "room_economy_title": "Merkezi konumda akıllı tercih",
+    "room_economy_desc": "Kısa konaklamalar için sade, düzenli ve sıcak bir alternatif.",
+    "room_economy_features_aria": "Ekonomi oda kısa özellikleri",
+    "room_economy_feature_1": "2 Kişi",
+    "room_economy_feature_2": "Double Bed",
+    "room_economy_feature_3": "18 m²",
+    "room_economy_feature_4": "Ücretli",
+    "room_economy_feature_5": "Kompakt Banyo",
+    "room_card_note": "Detayları Gör",
+    "offers_eyebrow": "Özel Teklifler",
+    "offers_title": "Hotel 17 için seçkin konaklama paketleri",
+    "offer_1_badge": "Hafta Sonu Kaçamağı",
+    "offer_1_title": "Hafta Sonu Kaçamağı",
+    "offer_1_text": "İki gece + erken check-in seçeneğiyle sade, dengeli ve rafine bir şehir mola önerisi. Odanızda sessiz bir tempo, sahile yakın bir erişim ve huzurlu bir gece atmosferi.",
+    "offer_1_highlight": "Her hafta sonu: geç çıkışa kadar konforlu uzatma",
+    "offer_2_badge": "Romantik Kaçamak",
+    "offer_2_title": "Romantik Kaçamak",
+    "offer_2_text": "Akşam vakti şehir ritminden arınarak, butik ölçekte huzurlu bir ikili konaklama deneyimi. Işık, doku ve sessiz servis detaylarının öne çıktığı bir planlama.",
+    "offer_2_highlight": "Lobi lounge kahvesi ve oda ikramı dahil",
+    "offer_3_badge": "Uzun Konaklama Avantajı",
+    "offer_3_title": "Uzun Konaklama Avantajı",
+    "offer_3_text": "İş veya uzun kişisel seyahatler için planlanmış, sakin ve dengeli bir fiyatlandırma yaklaşımı. Her gün için kesintisiz konforla aynı kalite, daha iyi oranlar.",
+    "offer_3_highlight": "7 gece ve üzeri konaklamalarda özel kurumsal oran",
+    "offer_cta": "Detay ve Talep",
+    "amenities_eyebrow": "Olanaklar",
+    "amenities_title": "Konforu tamamlayan detaylar",
+    "amenity_1_title": "Yüksek Hızlı Wi-Fi",
+    "amenity_1_text": "İş ve eğlence için kesintisiz internet bağlantısı.",
+    "amenity_2_title": "24 Saat Resepsiyon",
+    "amenity_2_text": "Geç girişler ve tüm sorularınız için sürekli destek.",
+    "amenity_3_title": "Günlük Temizlik",
+    "amenity_3_text": "Her gün ferah, düzenli ve bakımlı yaşam alanları.",
+    "amenity_4_title": "Merkezi Lokasyon",
+    "amenity_4_text": "Kafeler, sahil, ulaşım ve kültürel noktalarla iç içe.",
+    "amenity_5_title": "Klima ve Isıtma",
+    "amenity_5_text": "Dört mevsim dengeli ve rahat oda sıcaklığı.",
+    "amenity_6_title": "Transfer Desteği",
+    "amenity_6_text": "Talebe göre ulaşım ve yönlendirme desteği sağlanır.",
+    "cta_eyebrow": "Özel Teklif",
+    "cta_title": "İstanbul seyahatiniz için zarif bir başlangıç yapın",
+    "cta_text": "Konaklama tarihinizi paylaşın; sizin için en uygun oda seçenekleri ve fiyat bilgilerini hazırlayalım.",
+    "cta_primary": "Rezervasyon Sor",
+    "cta_secondary": "Odaları Gör",
+    "instagram_eyebrow": "Instagram Anları",
+    "instagram_title": "Hotel 17'yi Takip Edin",
+    "instagram_cta": "Instagram'ı Gör",
+    "instagram_card_1_aria": "Hotel 17 lobi atmosfer fotoğrafı",
+    "instagram_card_1_alt": "Hotel 17 lobisi",
+    "instagram_card_1_title": "Lobi Ritüeli",
+    "instagram_card_1_text": "Yumuşak ışık ve cilalı taş dokuları.",
+    "instagram_card_2_aria": "Hotel 17 oda atmosferi",
+    "instagram_card_2_alt": "Hotel 17 oda iç mekanı",
+    "instagram_card_2_title": "Sessiz Lüks",
+    "instagram_card_2_text": "Yavaş akşamlar ve sakin konaklamalar için tasarlandı.",
+    "instagram_card_3_aria": "Hotel 17 kahvaltı anı",
+    "instagram_card_3_alt": "Hotel 17 kahvaltı masası",
+    "instagram_card_3_title": "Sabah Ritüeli",
+    "instagram_card_3_text": "Yerel tatlarla zarif servis anları.",
+    "instagram_card_4_aria": "Hotel 17 dış cephe alacakaranlık",
+    "instagram_card_4_alt": "Hotel 17 dış cephe",
+    "instagram_card_4_title": "Akşam Varışı",
+    "instagram_card_4_text": "Şehir ritminde modern siluetler.",
+    "instagram_card_5_aria": "Hotel 17 oda detayları",
+    "instagram_card_5_alt": "Hotel 17 oda detayları",
+    "instagram_card_5_title": "Yumuşak Kontrast",
+    "instagram_card_5_text": "Malzeme dokuları ve özenli detaylar.",
+    "instagram_card_6_aria": "Hotel 17 koridor tasarımı",
+    "instagram_card_6_alt": "Hotel 17 koridor",
+    "instagram_card_6_title": "Ambiyans Koridoru",
+    "instagram_card_6_text": "Ölçülü detaylardan kurulu atmosfer.",
+    "hero_eyebrow": "BOUTIQUE HOTEL · KADIKÖY",
+    "hero_title": "İstanbul'da sinematik ve zarif bir konaklama deneyimi",
+    "hero_copy": "Şehrin enerjisini modern tasarım, sıcak atmosfer ve butik hizmet anlayışıyla buluşturan Hotel 17; konforlu odaları, estetik detayları ve merkezi konumuyla unutulmaz bir İstanbul kaçamağı sunar.",
+    "hero_cta_rooms": "Odaları İncele",
+    "hero_cta_about": "Otelimizi Keşfet",
+    "booking_title": "Hızlı Talep",
+    "booking_checkin_label": "Giriş Tarihi",
+    "booking_checkout_label": "Çıkış Tarihi",
+    "booking_guests_label": "Misafir Sayısı",
+    "booking_room_label": "Oda Tipi",
+    "booking_select": "Seçin",
+    "booking_guest_1": "1 Misafir",
+    "booking_guest_2": "2 Misafir",
+    "booking_guest_3": "3 Misafir",
+    "booking_guest_4": "4 Misafir",
+    "room_economy": "Ekonomi",
+    "room_standard": "Standart",
+    "room_deluxe": "Deluxe",
+    "room_exclusive": "Exclusive",
+    "booking_note": "Misafirlerin çoğu hafta sonu konaklaması için bu odayı seçer.",
+    "booking_submit": "Oda Müsaitliğini Kontrol Et",
+    "booking_status_required": "Lütfen tüm alanları doldurun.",
+    "booking_status_date": "Çıkış tarihi, giriş tarihinden sonra olmalıdır.",
+    "booking_submit_loading": "Gönderiliyor...",
+    "booking_status_success": "Talebiniz alındı. En kısa sürede size dönüş yapacağız.",
+    "booking_rate_suffix": " / gece",
+    "booking_result_title": "İyi haber — bu tarihlerde müsaitliğimiz var",
+    "booking_result_desc": "Bu tarihler için sadece birkaç oda kaldı. Misafirlerin çoğu rezervasyonunu aynı gün tamamlıyor.",
+    "booking_modal_eyebrow": "Müsaitlik",
+    "booking_modal_badge": "Premium Demo",
+    "booking_continue": "Rezervasyona Devam Et",
+    "booking_whatsapp": "WhatsApp ile İletişim",
+    "booking_contact": "İletişim Formu",
+    "summary_checkin": "Giriş",
+    "summary_checkout": "Çıkış",
+    "summary_guests": "Misafir",
+    "summary_room": "Oda Tipi",
+    "summary_rate": "Gecelik",
+    "summary_total": "Tahmini Toplam",
+    "contact_eyebrow": "İletişim",
+    "contact_title": "Zamansız konforun yanınızda olduğu nokta",
+    "contact_p1": "Rezervasyon, uzun konaklama, özel etkinlik veya ek hizmet talepleriniz için doğrudan bize ulaşın.",
+    "contact_p2": "Aşağıdaki kartlarda hızlı erişim bilgilerini, saat içindeki destek ekibimizi ve güvenli bir şekilde iletişime geçme seçeneklerini bulacaksınız.",
+    "contact_card_address_tag": "Adres",
+    "contact_card_address_title": "Kadıköy Merkez, İstanbul",
+    "contact_card_address_text": "Caferağa Mah. Şair Eşref Blv. No:17, Kadıköy / İstanbul",
+    "contact_card_address_link": "Yol Tarifi Al",
+    "contact_card_phone_tag": "Telefon",
+    "contact_card_phone_title": "Rezervasyon ve Ön Kayıt",
+    "contact_card_phone_text": "+90 555 555 55 55",
+    "contact_card_phone_link": "Hemen Ara",
+    "contact_card_email_tag": "E-posta",
+    "contact_card_email_title": "Resmi Mesaj Kanalımız",
+    "contact_card_email_text": "hello@hotel17.com",
+    "contact_card_email_link": "E-posta Gönder",
+    "contact_whatsapp": "WhatsApp ile Yazın",
+    "contact_form_eyebrow": "Mesaj Formu",
+    "contact_form_title": "Talebinizi detaylandırın, size dönelim",
+    "contact_name_label": "Ad Soyad",
+    "contact_name_placeholder": "Ad Soyad",
+    "contact_email_label": "E-posta",
+    "contact_email_placeholder": "ornek@mail.com",
+    "contact_message_label": "Mesajınız",
+    "contact_message_placeholder": "Konaklama tarihiniz, oda beklentiniz ve iletişim saatiniz gibi notlarınızı yazın.",
+    "contact_submit": "Mesaj Gönder",
+    "contact_status_error": "Lütfen formu eksiksiz tamamlayın.",
+    "contact_status_success": "Mesajınız alındı, kısa sürede dönüş yapacağız.",
+    "contact_error_name": "Lütfen adınızı girin.",
+    "contact_error_email": "Lütfen geçerli bir e-posta girin.",
+    "contact_error_message": "Mesajınız en az 10 karakter olmalı.",
+    "contact_map_eyebrow": "Konum",
+    "contact_map_title": "Hotel 17, Kadıköy",
+    "contact_map_desc": "Otelde sizleri karşılamak için dakikadan dakikaya İstanbul'un merkezinde.",
+    "contact_map_button": "Haritada Aç",
+    "location_eyebrow": "Konum",
+    "location_title": "Kadıköy · İstanbul",
+    "map_section_title": "Otel Konumu",
+    "map_section_desc": "Kadıköy merkezine birkaç dakika mesafede.",
+    "gallery_eyebrow": "Galeri",
+    "gallery_title": "Mekânın atmosferine yakından bakın",
+    "gallery_lobby_title": "Lobby",
+    "gallery_lobby_text": "Giriş anından itibaren sakin, rafine ve ışıkla katmanlanan bir karşılama deneyimi.",
+    "gallery_lobby_alt": "Lobi ve karşılamanın sıcak atmosferi",
+    "gallery_room_detail_title": "Room Detail",
+    "gallery_room_detail_text": "Ölçülü dekor, net çizgiler ve işlevsel detaylarla rafine bir konfor sunan bu alan; sessiz tonları, dengeli ışığı ve düşünülmüş yerleşimiyle günün temposunu yavaşlatır. Malzeme dokuları, yumuşak geçişler ve sade ama güçlü bir atmosfer, hem dinlenme hem de çalışma anlarında huzurlu bir akış sağlar. Her detay, ferahlık hissini korurken mekâna zarif bir karakter kazandırır.",
+    "gallery_room_detail_alt": "Oda detayları ve yaşam alanı",
+    "gallery_bedding_title": "Bedding",
+    "gallery_bedding_text": "Doğal dokulu tekstiller ve derin uyku kalitesine odaklı yatak kurgusu.",
+    "gallery_bedding_alt": "Yatak ve tekstil detayları",
+    "gallery_corridor_title": "Corridor",
+    "gallery_corridor_text": "Malzeme geçişleri ve ışık ritmiyle sahnelenen sessiz bir mimari akış.",
+    "gallery_corridor_alt": "Koridor ve iç mimari geçişler",
+    "gallery_facade_title": "Facade",
+    "gallery_facade_text": "Kadıköy dokusuna uyumlanan, modern ve zamansız bir dış cephe dili.",
+    "gallery_facade_alt": "Otelin dış cephesi ve giriş görünümü",
+    "gallery_breakfast_title": "Breakfast",
+    "gallery_breakfast_text": "Yerel tatlarla zenginleşen, günün temposunu yumuşak başlatan butik servis.",
+    "gallery_breakfast_alt": "Kahvaltı servisi ve butik sunum",
+    "gallery_neighborhood_title": "Neighborhood",
+    "gallery_neighborhood_text": "Sahil, kültür ve yeme-içme noktalarına kısa yürüyüşle ulaşan canlı bir çevre; günün her saatinde farklı bir ritim sunar. Yakındaki kafe ve sokaklar, yerel lezzetler ve küçük keşifler için ideal bir rota oluştururken, deniz hattı kısa bir kaçamak hissi verir. Bu çevre, otelin sakin atmosferiyle dengelenen şehir enerjisini tam dozunda yaşatır.",
+    "gallery_neighborhood_alt": "Kadıköy çevresi ve mahalle atmosferi",
+    "footer_copy": "Kadıköy'ün ritmini rafine bir misafirperverlikle buluşturan butik konaklama deneyimi.",
+    "footer_quick_links": "Hızlı Linkler",
+    "footer_link_about": "Hakkımızda",
+    "footer_link_rooms": "Odalar",
+    "footer_link_gallery": "Galeri",
+    "footer_link_contact": "İletişim",
+    "footer_contact": "İletişim",
+    "footer_contact_location": "Kadıköy, İstanbul",
+    "footer_social": "Sosyal",
+    "footer_social_instagram": "Instagram",
+    "footer_social_whatsapp": "WhatsApp",
+    "footer_reserve_cta": "Rezervasyon Yap",
+    "nav_location": "Neredeyiz"
+  },
+  "en": {
+    "meta_title": "Hotel 17 | Boutique Stay in Istanbul",
+    "meta_description": "A modern, cinematic boutique stay in Kadıköy, Istanbul.",
+    "meta_keywords": "Kadikoy hotel, boutique hotel Istanbul, Hotel 17, Kadikoy stay",
+    "brand_home_aria": "Hotel 17 home",
+    "brand_logo_alt": "Hotel 17 Logo",
+    "brand_logo_aria": "Hotel 17 logo",
+    "brand_tagline": "Kadıköy · Istanbul",
+    "nav_main_aria": "Main navigation",
+    "nav_home": "Home",
+    "nav_concept": "Concept",
+    "nav_about": "About",
+    "nav_rooms": "Rooms",
+    "nav_gallery": "Gallery",
+    "nav_amenities": "Amenities",
+    "nav_contact": "Contact",
+    "lang_switch_aria": "Language selection",
+    "theme_toggle_aria": "Toggle theme",
+    "menu_toggle_aria": "Open mobile menu",
+    "menu_close_aria": "Close mobile menu",
+    "mobile_menu_aria": "Mobile navigation menu",
+    "mobile_nav_aria": "Mobile section links",
+    "reserve_external_aria": "Open external booking page in a new tab",
+    "reserve_cta": "Book Now",
+    "instagram_aria": "Open our Instagram page in a new tab",
+    "whatsapp_aria": "Message us on WhatsApp",
+    "social_instagram": "Instagram",
+    "social_whatsapp": "WhatsApp",
+    "stat_rooms_title": "4 Room Types",
+    "stat_rooms_text": "Boutique room options tailored for every guest",
+    "stat_location_title": "Central Location",
+    "stat_location_text": "A few steps from Kadıköy's vibrant atmosphere",
+    "stat_support_title": "24/7 Support",
+    "stat_support_text": "Always reachable guest relations",
+    "stat_aesthetic_title": "Aesthetic Experience",
+    "stat_aesthetic_text": "Understated luxury, modern textures, warm details",
+    "story_eyebrow": "Concept Story",
+    "story_title": "Hotel 17: A refined stage that slows the city’s rhythm",
+    "story_manifesto": "Hotel 17 balances Kadıköy’s lively tempo with a quiet sense of luxury. For us, staying isn’t just spending a night; it’s a personal city ritual shaped by light, texture, and calm.",
+    "story_point_1_title": "Light Composition",
+    "story_point_1_text": "Soft shadows, warm tones, and layered ambience that brings sunset indoors.",
+    "story_point_2_title": "Dialogue with the City",
+    "story_point_2_text": "Steps away from Kadıköy’s culture, with a calm-focused experience inside.",
+    "story_point_3_title": "Refined Simplicity",
+    "story_point_3_text": "Materials that foreground character, timeless lines, and boutique-scale service.",
+    "story_visual_aria": "Concept visual reflecting Hotel 17 lounge and room mood under warm lights",
+    "story_caption_title": "Atmosphere Note",
+    "story_caption_text": "Bronze reflections, natural textures, and a low-tempo city elegance at nightfall.",
+    "about_image_1_alt": "Room details and premium interior",
+    "about_image_2_alt": "Boutique hotel corridor and architectural texture",
+    "about_eyebrow": "About",
+    "about_title": "Timeless elegance, warm hospitality",
+    "about_p1": "Hotel 17 reinterprets Istanbul’s rhythm through a calm and refined approach to staying. Contemporary design, soft lighting, and a sense of comfort lead every detail.",
+    "about_p2": "Whether you’re here for a short city escape or a business trip, we offer a balanced setting where you can rest and still feel the city’s energy.",
+    "about_cta": "Contact Us",
+    "rooms_eyebrow": "Rooms",
+    "rooms_title": "Curated room choices for every stay",
+    "rooms_cta": "Ask About All Rooms",
+    "room_exclusive_aria": "Open Exclusive room details",
+    "room_exclusive_alt": "Exclusive Room",
+    "room_exclusive_name": "Exclusive Room",
+    "room_exclusive_title": "Premium comfort in the heart of the city",
+    "room_exclusive_desc": "Spacious bed, private lounge corner, warm lighting, and top-tier details.",
+    "room_exclusive_features_aria": "Exclusive room key features",
+    "room_exclusive_feature_1": "3 Guests",
+    "room_exclusive_feature_2": "King Bed",
+    "room_exclusive_feature_3": "36 m²",
+    "room_exclusive_feature_4": "Breakfast Included",
+    "room_exclusive_feature_5": "Marble Bathroom",
+    "room_deluxe_aria": "Open Deluxe room details",
+    "room_deluxe_alt": "Deluxe Room",
+    "room_deluxe_name": "Deluxe Room",
+    "room_deluxe_title": "Modern lines, balanced comfort",
+    "room_deluxe_desc": "A spacious layout that brings comfort and aesthetics together.",
+    "room_deluxe_features_aria": "Deluxe room key features",
+    "room_deluxe_feature_1": "2 Guests",
+    "room_deluxe_feature_2": "Queen Bed",
+    "room_deluxe_feature_3": "28 m²",
+    "room_deluxe_feature_4": "Breakfast Included",
+    "room_deluxe_feature_5": "Rain Shower",
+    "room_standard_aria": "Open Standard room details",
+    "room_standard_alt": "Standard Room",
+    "room_standard_name": "Standard Room",
+    "room_standard_title": "Smart design, understated elegance",
+    "room_standard_desc": "A calm, clean stay that keeps functionality at the core.",
+    "room_standard_features_aria": "Standard room key features",
+    "room_standard_feature_1": "2 Guests",
+    "room_standard_feature_2": "Double Bed",
+    "room_standard_feature_3": "22 m²",
+    "room_standard_feature_4": "Optional",
+    "room_standard_feature_5": "Shower Cabin",
+    "room_economy_aria": "Open Economy room details",
+    "room_economy_alt": "Economy Room",
+    "room_economy_name": "Economy Room",
+    "room_economy_title": "Smart choice in a central location",
+    "room_economy_desc": "A simple, tidy, and warm alternative for short stays.",
+    "room_economy_features_aria": "Economy room key features",
+    "room_economy_feature_1": "2 Guests",
+    "room_economy_feature_2": "Double Bed",
+    "room_economy_feature_3": "18 m²",
+    "room_economy_feature_4": "Paid",
+    "room_economy_feature_5": "Compact Bathroom",
+    "room_card_note": "View Details",
+    "offers_eyebrow": "Special Offers",
+    "offers_title": "Curated stay packages for Hotel 17",
+    "offer_1_badge": "Weekend Escape",
+    "offer_1_title": "Weekend Escape",
+    "offer_1_text": "A refined city break with two nights plus early check-in. Quiet tempo in your room, quick access to the coast, and a calm night atmosphere.",
+    "offer_1_highlight": "Every weekend: extend comfortably until late check-out",
+    "offer_2_badge": "Romantic Stay",
+    "offer_2_title": "Romantic Stay",
+    "offer_2_text": "A boutique-scale stay for two, unwinding from the city rhythm. A plan where light, texture, and quiet service details stand out.",
+    "offer_2_highlight": "Lobby lounge coffee and in-room treats included",
+    "offer_3_badge": "Long Stay Offer",
+    "offer_3_title": "Long Stay Offer",
+    "offer_3_text": "A calm, balanced pricing approach for business or long personal trips. The same quality every day with better rates.",
+    "offer_3_highlight": "Special corporate rates for stays of 7 nights or more",
+    "offer_cta": "Details & Request",
+    "amenities_eyebrow": "Amenities",
+    "amenities_title": "Details that complete comfort",
+    "amenity_1_title": "High-Speed Wi‑Fi",
+    "amenity_1_text": "Reliable internet connection for work and leisure.",
+    "amenity_2_title": "24-Hour Reception",
+    "amenity_2_text": "Continuous support for late check-ins and any questions.",
+    "amenity_3_title": "Daily Housekeeping",
+    "amenity_3_text": "Fresh, tidy, and well-kept living spaces every day.",
+    "amenity_4_title": "Central Location",
+    "amenity_4_text": "Close to cafes, the coast, transit, and cultural spots.",
+    "amenity_5_title": "Air Conditioning & Heating",
+    "amenity_5_text": "Comfortable, balanced room temperature all year.",
+    "amenity_6_title": "Transfer Support",
+    "amenity_6_text": "Transportation and guidance support upon request.",
+    "cta_eyebrow": "Special Offer",
+    "cta_title": "Start your Istanbul trip with a refined touch",
+    "cta_text": "Share your stay dates and we’ll prepare the best room options and pricing for you.",
+    "cta_primary": "Ask About Booking",
+    "cta_secondary": "See Rooms",
+    "instagram_eyebrow": "Instagram Moments",
+    "instagram_title": "Follow Hotel 17",
+    "instagram_cta": "View Instagram",
+    "instagram_card_1_aria": "Hotel 17 lobby mood photo",
+    "instagram_card_1_alt": "Hotel 17 lobby",
+    "instagram_card_1_title": "Lobby Ritual",
+    "instagram_card_1_text": "Soft light and polished stone textures.",
+    "instagram_card_2_aria": "Hotel 17 room atmosphere",
+    "instagram_card_2_alt": "Hotel 17 room interior",
+    "instagram_card_2_title": "Quiet Luxury",
+    "instagram_card_2_text": "Designed for slow evenings and calm stays.",
+    "instagram_card_3_aria": "Hotel 17 breakfast moment",
+    "instagram_card_3_alt": "Hotel 17 breakfast table",
+    "instagram_card_3_title": "Morning Ritual",
+    "instagram_card_3_text": "Delicate service moments with local flavors.",
+    "instagram_card_4_aria": "Hotel 17 facade at dusk",
+    "instagram_card_4_alt": "Hotel 17 facade",
+    "instagram_card_4_title": "Evening Arrival",
+    "instagram_card_4_text": "Modern silhouettes in city rhythm.",
+    "instagram_card_5_aria": "Hotel 17 room details",
+    "instagram_card_5_alt": "Hotel 17 room details",
+    "instagram_card_5_title": "Soft Contrast",
+    "instagram_card_5_text": "Material textures and thoughtful touchpoints.",
+    "instagram_card_6_aria": "Hotel 17 corridor design",
+    "instagram_card_6_alt": "Hotel 17 corridor",
+    "instagram_card_6_title": "Ambient Corridor",
+    "instagram_card_6_text": "Atmosphere built from restrained details.",
+    "hero_eyebrow": "BOUTIQUE HOTEL · KADIKÖY",
+    "hero_title": "A cinematic, refined stay in Istanbul",
+    "hero_copy": "Hotel 17 blends the city’s energy with modern design, warm atmosphere, and boutique service; offering comfortable rooms, aesthetic details, and a central location for an unforgettable Istanbul escape.",
+    "hero_cta_rooms": "Explore Rooms",
+    "hero_cta_about": "Discover the Hotel",
+    "booking_title": "Quick Request",
+    "booking_checkin_label": "Check-in Date",
+    "booking_checkout_label": "Check-out Date",
+    "booking_guests_label": "Guest Count",
+    "booking_room_label": "Room Type",
+    "booking_select": "Select",
+    "booking_guest_1": "1 Guest",
+    "booking_guest_2": "2 Guests",
+    "booking_guest_3": "3 Guests",
+    "booking_guest_4": "4 Guests",
+    "room_economy": "Economy",
+    "room_standard": "Standard",
+    "room_deluxe": "Deluxe",
+    "room_exclusive": "Exclusive",
+    "booking_note": "Most guests choose this room for weekend stays.",
+    "booking_submit": "Check Room Availability",
+    "booking_status_required": "Please complete all fields.",
+    "booking_status_date": "Check-out must be after check-in.",
+    "booking_submit_loading": "Sending...",
+    "booking_status_success": "Your request is received. We will get back to you shortly.",
+    "booking_rate_suffix": " / night",
+    "booking_result_title": "Good news — we currently have availability",
+    "booking_result_desc": "Only a few rooms left for these dates. Most guests complete their reservation within the same day.",
+    "booking_modal_eyebrow": "Availability",
+    "booking_modal_badge": "Premium Demo",
+    "booking_continue": "Continue Booking",
+    "booking_whatsapp": "WhatsApp",
+    "booking_contact": "Contact Form",
+    "summary_checkin": "Check-in",
+    "summary_checkout": "Check-out",
+    "summary_guests": "Guests",
+    "summary_room": "Room Type",
+    "summary_rate": "Per Night",
+    "summary_total": "Estimated Total",
+    "contact_eyebrow": "Contact",
+    "contact_title": "Timeless comfort, right where you need it",
+    "contact_p1": "Reach out directly for reservations, long stays, private events, or additional services.",
+    "contact_p2": "Use the cards below for quick access details, our support team, and secure ways to get in touch.",
+    "contact_card_address_tag": "Address",
+    "contact_card_address_title": "Kadıköy Center, Istanbul",
+    "contact_card_address_text": "Caferağa Mah. Şair Eşref Blvd. No:17, Kadıköy / Istanbul",
+    "contact_card_address_link": "Get Directions",
+    "contact_card_phone_tag": "Phone",
+    "contact_card_phone_title": "Reservations & Pre-Booking",
+    "contact_card_phone_text": "+90 555 555 55 55",
+    "contact_card_phone_link": "Call Now",
+    "contact_card_email_tag": "Email",
+    "contact_card_email_title": "Official Message Channel",
+    "contact_card_email_text": "hello@hotel17.com",
+    "contact_card_email_link": "Send Email",
+    "contact_whatsapp": "Message on WhatsApp",
+    "contact_form_eyebrow": "Message Form",
+    "contact_form_title": "Share details and we will get back to you",
+    "contact_name_label": "Full Name",
+    "contact_name_placeholder": "Full Name",
+    "contact_email_label": "Email",
+    "contact_email_placeholder": "name@mail.com",
+    "contact_message_label": "Your Message",
+    "contact_message_placeholder": "Share your dates, room preferences, and best time to reach you.",
+    "contact_submit": "Send Message",
+    "contact_status_error": "Please complete the form.",
+    "contact_status_success": "Message received. We will get back to you shortly.",
+    "contact_error_name": "Please enter your name.",
+    "contact_error_email": "Please enter a valid email.",
+    "contact_error_message": "Your message must be at least 10 characters.",
+    "contact_map_eyebrow": "Location",
+    "contact_map_title": "Hotel 17, Kadıköy",
+    "contact_map_desc": "We are ready to welcome you in the heart of Istanbul.",
+    "contact_map_button": "Open in Maps",
+    "location_eyebrow": "Location",
+    "location_title": "Kadıköy · Istanbul",
+    "map_section_title": "Hotel Location",
+    "map_section_desc": "Minutes away from central Kadıköy.",
+    "gallery_eyebrow": "Gallery",
+    "gallery_title": "Take a closer look at the atmosphere",
+    "gallery_lobby_title": "Lobby",
+    "gallery_lobby_text": "A calm, refined welcome layered with light from the first moment.",
+    "gallery_lobby_alt": "Lobby and warm welcome atmosphere",
+    "gallery_room_detail_title": "Room Detail",
+    "gallery_room_detail_text": "This space delivers refined comfort through measured decor, clean lines, and functional details; quiet tones, balanced light, and a thoughtful layout slow the pace of the day. Material textures, soft transitions, and a calm yet confident atmosphere support both rest and focus, while every detail preserves a sense of openness and graceful character.",
+    "gallery_room_detail_alt": "Room details and living area",
+    "gallery_bedding_title": "Bedding",
+    "gallery_bedding_text": "Natural textiles and a bed setup focused on deep sleep quality.",
+    "gallery_bedding_alt": "Bedding and textile details",
+    "gallery_corridor_title": "Corridor",
+    "gallery_corridor_text": "A quiet architectural flow shaped by material transitions and light rhythm.",
+    "gallery_corridor_alt": "Corridor and interior transitions",
+    "gallery_facade_title": "Facade",
+    "gallery_facade_text": "A modern, timeless exterior that blends with Kadıköy's texture.",
+    "gallery_facade_alt": "Hotel facade and entrance view",
+    "gallery_breakfast_title": "Breakfast",
+    "gallery_breakfast_text": "Boutique service enriched with local flavors to start the day softly.",
+    "gallery_breakfast_alt": "Breakfast service and boutique presentation",
+    "gallery_neighborhood_title": "Neighborhood",
+    "gallery_neighborhood_text": "A lively area within a short walk to the coast, culture, and dining; the neighborhood offers a different rhythm throughout the day. Nearby cafes and streets create an easy route for local flavors and small discoveries, while the shoreline delivers a quick sense of escape. It balances the city’s energy with the hotel’s calm atmosphere.",
+    "gallery_neighborhood_alt": "Kadıköy surroundings and neighborhood atmosphere",
+    "footer_copy": "A boutique stay that blends Kadıköy's rhythm with refined hospitality.",
+    "footer_quick_links": "Quick Links",
+    "footer_link_about": "About",
+    "footer_link_rooms": "Rooms",
+    "footer_link_gallery": "Gallery",
+    "footer_link_contact": "Contact",
+    "footer_contact": "Contact",
+    "footer_contact_location": "Kadıköy, Istanbul",
+    "footer_social": "Social",
+    "footer_social_instagram": "Instagram",
+    "footer_social_whatsapp": "WhatsApp",
+    "footer_reserve_cta": "Book Now",
+    "nav_location": "Location"
+  }
+}
+  </script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
