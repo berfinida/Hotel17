@@ -15,11 +15,7 @@
 A modern **boutique hotel website** designed to showcase rooms, atmosphere, and guest experience through a **premium interactive interface**.
 
 🌐 **Live Demo**  
-https://berfinida.github.io/Hotel17/
-
-</div>
-
----
+https://hotel17-lilac.vercel.app/
 
 # ✨ Overview
 
@@ -200,3 +196,4 @@ https://www.linkedin.com/in/berfin-nida-%C3%B6zt%C3%BCrk-6a12131b7/
 # 📄 License
 
 MIT License
+
